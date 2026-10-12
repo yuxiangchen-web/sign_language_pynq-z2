@@ -1,0 +1,631 @@
+{
+  "manifest_rows": 61,
+  "missing_files": [],
+  "unreadable_files": [],
+  "size_mismatches": [],
+  "unknown_labels": [],
+  "duplicate_files": [],
+  "split_batch_conflicts": [],
+  "duplicate_hashes": [],
+  "label_counts": {
+    "number_1": 11,
+    "number_2": 10,
+    "number_3": 10,
+    "number_4": 10,
+    "number_5": 10,
+    "unknown": 10
+  },
+  "manual_review": [
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_103131_114060.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_103245_123319.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_103351_414404.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_103733_443110.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_105056_214361.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_183254_150345.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_183324_916887.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_183330_020436.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_183333_780125.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_183344_564164.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_183349_860277.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_1/number_1_20261002_183357_539833.jpg",
+      "label": "number_1",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183536_280760.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183544_392709.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183556_328199.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183606_264069.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183611_513058.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183615_208659.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183618_779023.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183626_279849.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_2/number_2_20261002_183632_088620.jpg",
+      "label": "number_2",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183650_760040.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183703_080064.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183713_176627.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183718_680665.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183725_960128.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183731_624455.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183736_199685.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183742_664029.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183747_080710.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_3/number_3_20261002_183753_704208.jpg",
+      "label": "number_3",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183812_633849.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183816_856161.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183823_672832.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183839_579267.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183842_344285.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183849_319974.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183852_616103.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183858_952556.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183912_104265.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_4/number_4_20261002_183920_008563.jpg",
+      "label": "number_4",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_183925_576597.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_183929_639966.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_183934_024369.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_183942_056055.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_184003_465702.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_184009_017022.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_184011_208166.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_184016_071914.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_184021_656053.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/number_5/number_5_20261002_184025_160216.jpg",
+      "label": "number_5",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184041_464272.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184044_536162.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184050_441132.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184100_344365.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184113_080557.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184134_263928.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184137_640256.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184139_176360.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184143_144266.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    },
+    {
+      "file": "dataset/raw_static_v1/unknown/unknown_20261002_184301_131045.jpg",
+      "label": "unknown",
+      "checks": [
+        "手指是否完整",
+        "手部是否接触图像边缘",
+        "标签是否与动作一致",
+        "unknown 是否确实为非目标手势"
+      ]
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,477 @@
+﻿[
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\play_audio.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\play_audio.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\prepare_audio.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\prepare_audio.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\README.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\README.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\speech_map.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\speech_map.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\synthesize_windows.ps1",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\synthesize_windows.ps1"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\test_audio.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\test_audio.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\__init__.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\__init__.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\goodbye.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\goodbye.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\hello.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\hello.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\help.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\help.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\manifest.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\manifest.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\number_1.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\number_1.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\number_2.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\number_2.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\number_3.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\number_3.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\number_4.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\number_4.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\number_5.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\number_5.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\audio\\wav\\thanks.wav",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\audio\\wav\\thanks.wav"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\audio_board_test.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\audio_board_test.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\dma_board_test.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\dma_board_test.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\dma_transfer.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\dma_transfer.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\load_overlay.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\load_overlay.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\overlay_register_test.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\overlay_register_test.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\README_role_c.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\README_role_c.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\role_c_benchmark.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\role_c_benchmark.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\run_log.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\run_log.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\verify_role_c.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\verify_role_c.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\board\\__init__.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\__init__.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\tests\\test_role_c_audio.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\tests\\test_role_c_audio.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\tests\\test_role_c_benchmark.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\tests\\test_role_c_benchmark.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\tests\\test_role_c_dma.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\tests\\test_role_c_dma.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\tests\\test_role_c_overlay.py",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\tests\\test_role_c_overlay.py"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_ai_collaboration.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_ai_collaboration.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_analysis.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_analysis.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_delivery.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_delivery.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_fix_log.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_fix_log.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_learning.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_learning.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_source_inventory.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_source_inventory.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\audio_assets.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\audio_assets.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\audio_trigger.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\audio_trigger.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\baseline.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\baseline.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\baseline.xml",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\baseline.xml"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\bd_connections.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\bd_connections.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\benchmark_missing_input_before_fix.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\benchmark_missing_input_before_fix.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\cpu_reference.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\cpu_reference.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\cpu_reference_final.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\cpu_reference_final.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\current_plan_tests.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\current_plan_tests.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\current_plan_tests.xml",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\current_plan_tests.xml"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\dma_capability.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\dma_capability.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final_checks.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final_checks.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\gpio_contract.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\gpio_contract.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_checks.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_checks.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\original_files.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\original_files.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\original_files_check.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\original_files_check.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\pc_integration.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\pc_integration.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\prepare_audio.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\prepare_audio.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\prepare_audio_final.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\prepare_audio_final.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\prepare_audio_retry.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\prepare_audio_retry.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\regression_first.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\regression_first.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\regression_first.xml",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\regression_first.xml"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\regression_second.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\regression_second.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\regression_second.xml",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\regression_second.xml"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\audio.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\audio.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\audio_assets.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\audio_assets.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\audio_mapping.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\audio_mapping.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\automated_tests.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\automated_tests.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\dependency_check.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\dependency_check.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\dma.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\dma.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\dma_metadata.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\dma_metadata.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\gpio.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\gpio.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\gpio_metadata.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\gpio_metadata.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\python_compile.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\python_compile.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\summary.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\summary.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\tests.xml",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\tests.xml"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\final\\trigger.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\final\\trigger.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\audio.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\audio.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\audio_assets.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\audio_assets.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\audio_mapping.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\audio_mapping.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\automated_tests.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\automated_tests.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\dependency_check.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\dependency_check.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\dma.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\dma.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\dma_metadata.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\dma_metadata.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\gpio.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\gpio.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\gpio_metadata.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\gpio_metadata.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\python_compile.txt",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\python_compile.txt"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\summary.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\summary.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\tests.xml",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\tests.xml"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\report\\role_c_logs\\legacy_full\\trigger.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\report\\role_c_logs\\legacy_full\\trigger.json"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\delivery\\README_role_c.md",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\delivery\\README_role_c.md"
+    },
+    {
+        "Action":  "copy",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\角色C交付包_20261009\\delivery\\role_c_manifest.json",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\delivery\\role_c_manifest.json"
+    },
+    {
+        "Action":  "move",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\hs_err_pid12264.dmp",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\logs\\vivado_root_20261009\\hs_err_pid12264.dmp"
+    },
+    {
+        "Action":  "move",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\hs_err_pid12264.log",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\logs\\vivado_root_20261009\\hs_err_pid12264.log"
+    },
+    {
+        "Action":  "move",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\nlviewcommon.logfile",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\logs\\vivado_root_20261009\\nlviewcommon.logfile"
+    },
+    {
+        "Action":  "move",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\vivado.jou",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\logs\\vivado_root_20261009\\vivado.jou"
+    },
+    {
+        "Action":  "move",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\vivado.log",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\logs\\vivado_root_20261009\\vivado.log"
+    },
+    {
+        "Action":  "move",
+        "Source":  "D:\\PYNQ\\projects\\sign-language-pynq\\vivado_pid12264.str",
+        "Destination":  "D:\\PYNQ\\projects\\sign-language-pynq\\logs\\vivado_root_20261009\\vivado_pid12264.str"
+    }
+]

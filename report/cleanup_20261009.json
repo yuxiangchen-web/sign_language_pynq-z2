@@ -1,0 +1,27 @@
+﻿[
+    {
+        "Path":  "D:\\PYNQ\\projects\\sign-language-pynq\\.role_c_tmp",
+        "Files":  1207,
+        "Bytes":  125412408
+    },
+    {
+        "Path":  "D:\\PYNQ\\projects\\sign-language-pynq\\.pytest_cache",
+        "Files":  5,
+        "Bytes":  1882
+    },
+    {
+        "Path":  "D:\\PYNQ\\projects\\sign-language-pynq\\__pycache__",
+        "Files":  17,
+        "Bytes":  102914
+    },
+    {
+        "Path":  "D:\\PYNQ\\projects\\sign-language-pynq\\board\\__pycache__",
+        "Files":  4,
+        "Bytes":  11027
+    },
+    {
+        "Path":  "D:\\PYNQ\\projects\\sign-language-pynq\\tests\\__pycache__",
+        "Files":  2,
+        "Bytes":  69419
+    }
+]

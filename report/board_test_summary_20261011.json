@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-11",
+  "board": "PYNQ-Z2",
+  "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+  "video_devices": [
+    "/dev/video0",
+    "/dev/video1"
+  ],
+  "camera_test": "passed",
+  "camera_file": "/home/xilinx/sign-language-pynq/board_camera_test.jpg",
+  "preprocess_test": "passed",
+  "preprocess_file": "/home/xilinx/sign-language-pynq/board_preprocess_mask.png",
+  "overlay_test": "passed",
+  "overlay_ips": [
+    "image_preprocess_0",
+    "axi_dma_0",
+    "axi_gpio_0"
+  ],
+  "gpio_mmio_test": "passed",
+  "dma_status": "detected_but_transfer_blocked",
+  "dma_issue": "max transfer size 16383 bytes; full frame input requires at least 230400 bytes",
+  "model_inference": "not_run_on_board",
+  "model_issue": "PYNQ-Z2 ARM environment lacks joblib/scikit-learn; need lightweight NumPy inference or offline dependency plan"
+}

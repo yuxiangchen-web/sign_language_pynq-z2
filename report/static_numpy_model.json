@@ -1,0 +1,19 @@
+{
+  "model": "models\\static_numpy_model.npz",
+  "labels": [
+    "number_1",
+    "number_2",
+    "number_3",
+    "number_4",
+    "number_5",
+    "unknown"
+  ],
+  "counts": {
+    "number_1": 21,
+    "number_2": 20,
+    "number_3": 20,
+    "number_4": 20,
+    "number_5": 20,
+    "unknown": 19
+  }
+}

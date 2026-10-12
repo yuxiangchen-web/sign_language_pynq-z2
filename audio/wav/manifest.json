@@ -1,0 +1,114 @@
+{
+  "source": "labels.py",
+  "unknown_policy": "silent",
+  "files": [
+    {
+      "path": "number_1.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 18080,
+      "duration_s": 1.13,
+      "label": "number_1",
+      "text": "一",
+      "origin": "windows",
+      "sha256": "c1aeb27b4655d2db8a20ceef08b21aa12c171f2d7d46a23f3a75e5c6b8c59428"
+    },
+    {
+      "path": "number_2.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 18080,
+      "duration_s": 1.13,
+      "label": "number_2",
+      "text": "二",
+      "origin": "windows",
+      "sha256": "d6baea4a076d830f968d879a9913724ce40666998cf7ff1dfde4a16909ac363e"
+    },
+    {
+      "path": "number_3.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 19520,
+      "duration_s": 1.22,
+      "label": "number_3",
+      "text": "三",
+      "origin": "windows",
+      "sha256": "b7bbdb10e44d522f6617c325ebcdee1c2f7244d80ceeeda2bdef2caf57e477a3"
+    },
+    {
+      "path": "number_4.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 19040,
+      "duration_s": 1.19,
+      "label": "number_4",
+      "text": "四",
+      "origin": "windows",
+      "sha256": "fdd5ab1ffc8320465647a710316f889af3a86e628b081fe69a59b5b1f8f84a24"
+    },
+    {
+      "path": "number_5.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 19280,
+      "duration_s": 1.205,
+      "label": "number_5",
+      "text": "五",
+      "origin": "windows",
+      "sha256": "d743b9d2664261f08edee633596dc8d1354b90ef3d699fb39a8d79243c9ba528"
+    },
+    {
+      "path": "hello.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 21840,
+      "duration_s": 1.365,
+      "label": "hello",
+      "text": "你好",
+      "origin": "windows",
+      "sha256": "a0a7c6a5ad25c2b660e459188c7bd2fdb766a8b7d70acfde21e8436fe7c2dc50"
+    },
+    {
+      "path": "thanks.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 23440,
+      "duration_s": 1.465,
+      "label": "thanks",
+      "text": "谢谢",
+      "origin": "windows",
+      "sha256": "2c873d154cb021b346339b41d3ff48316bf22f23bd216492564f255a057d6e65"
+    },
+    {
+      "path": "goodbye.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 22000,
+      "duration_s": 1.375,
+      "label": "goodbye",
+      "text": "再见",
+      "origin": "windows",
+      "sha256": "f02d9a31c22d337e6c35a705c54159833e4507ed300636488f7323d687f72b49"
+    },
+    {
+      "path": "help.wav",
+      "channels": 1,
+      "sample_width": 2,
+      "sample_rate": 16000,
+      "frames": 21280,
+      "duration_s": 1.33,
+      "label": "help",
+      "text": "帮助",
+      "origin": "windows",
+      "sha256": "66ab213f31e0ad4fc73bf2819c5a85a8aeee31e2acc29c3cae19231ffcbc6988"
+    }
+  ]
+}

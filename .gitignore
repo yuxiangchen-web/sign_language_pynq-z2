@@ -1,0 +1,75 @@
+﻿# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Dataset
+# Keep small manifest files, ignore bulky image data and generated datasets.
+dataset/raw_static_v1/
+dataset/processed_static_v1/
+dataset/rejected_static_*/
+dataset_board_static_*/
+archive/legacy_dataset/
+archive/legacy_outputs/
+archive/legacy_models/
+
+# Reports and runtime output
+report/latest_static_result.json
+report/latest_static_frame.jpg
+board_report_*/
+logs/
+report/role_c_logs/
+report/*.jpg
+report/*.png
+*.csv
+
+# Models and generated feature bundles
+models/*.npz
+models/*.pkl
+models/*.joblib
+data/features/
+software/*.npy
+software/*.pth
+
+# Vivado / FPGA generated files
+**/*.cache/
+**/*.gen/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/
+**/.Xil/
+*.jou
+*.log
+*.logfile
+*.str
+*.wdb
+*.xsa
+
+# Vitis/Vivado HLS generated files
+fpga/hls/**/solution*/.autopilot/
+fpga/hls/**/solution*/csim/build/
+fpga/hls/**/solution*/impl/
+fpga/hls/**/solution*/syn/
+fpga/hls/**/solution*/*.aps
+fpga/hls/**/solution*/solution*_data.json
+fpga/hls/**/solution*/solution*.directive
+
+# Board dependency/output bundles
+board_deps/
+*.zip
+
+# Secrets / keys
+*.pem
+*.key
+.ssh/
+id_rsa*
+*_ed25519*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
