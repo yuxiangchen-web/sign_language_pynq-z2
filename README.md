@@ -1,23 +1,33 @@
-# PYNQ-Z2 手语识别系统
+﻿# PYNQ-Z2 手语识别系统
 
-基于 PYNQ-Z2 的静态手语识别项目。系统计划通过 USB 摄像头采集图像，在 PYNQ 的处理系统（PS）与可编程逻辑（PL）之间进行软硬件协同，实现手部图像预处理、特征提取和手势分类。
+本项目是 FPGA 创新赛作品，目标是在 PYNQ-Z2 平台上实现手语识别系统。系统包含 PC 端算法原型、静态手势数据处理、板端实时推理、JSON 结果输出、电脑端中文语音播报，以及后续 FPGA/HLS 加速工程。
 
-> 当前项目处于 PC 算法原型与 FPGA 基础工程验证阶段，最终性能数据将在板卡实测后补充。
+## 当前进度
 
-## 1. 识别类别
+- 已完成静态手势图像预处理流程
+- 已完成 NumPy 轻量静态模型训练
+- 已完成板端单张图片推理
+- 已完成板端摄像头实时识别并输出 `latest_static_result.json`
+- 已完成电脑端读取板端识别结果并进行中文语音播报
+- 已建立 PYNQ-Z2 Vivado 基础工程和部分 Overlay 文件
+- 待完善动态手势识别、数据集清洗、模型评估、FPGA 加速验证和答辩材料
 
-当前规划识别以下 6 类：
+## 识别类别
+
+当前静态识别主流程面向数字手势与未知类别：
 
 | 标签 | 含义 |
 |---|---|
-| `palm` | 张开手掌 |
-| `fist` | 握拳 |
-| `victory` | 剪刀手 |
-| `ok` | OK 手势 |
-| `thumbs_up` | 点赞 |
+| `number_1` | 数字 1 |
+| `number_2` | 数字 2 |
+| `number_3` | 数字 3 |
+| `number_4` | 数字 4 |
+| `number_5` | 数字 5 |
 | `unknown` | 其他动作或无有效手势 |
 
-## 2. 系统流程
+项目中仍保留早期 palm、fist、victory、ok、thumbs_up 等实验代码和归档内容，主要用于历史参考。
+
+## 系统流程
 
 ```text
 USB 摄像头
@@ -28,71 +38,43 @@ USB 摄像头
     ↓
 最大轮廓与手部 ROI 提取
     ↓
-128×128 标准化掩膜
+标准化二值图
     ↓
-HOG 特征提取
+静态手势分类
     ↓
-手势分类
+板端写出 JSON 结果
     ↓
-结果显示与性能统计
+电脑端读取结果并语音播报
 ```
 
 计划由 PS 负责摄像头输入、系统控制和分类，由 PL 加速适合并行计算的图像处理模块。
 
-## 3. 当前进度
+## 主要脚本
 
-| 模块 | 状态 |
-|---|---|
-| Python/OpenCV 环境 | 已完成 |
-| 灰度、二值化和形态学处理 | 已完成 |
-| 肤色分割和轮廓提取 | 已完成原型 |
-| 128×128 手部标准化 | 已完成 |
-| HOG 特征提取 | 已完成 |
-| PC 基线分类器 | 已完成流程验证 |
-| PYNQ-Z2 Vivado 基础工程 | 已生成 Bitstream |
-| PYNQ 系统镜像和板卡启动 | 待验证 |
-| USB 摄像头实时采集 | 待验证 |
-| FPGA 图像算法加速 | 待实现 |
-| 准确率、延迟和资源测试 | 待完成 |
+- `labels.py`：统一标签、中文文本、结果格式
+- `preprocess.py`：图像预处理，包含肤色分割、轮廓提取和二值图生成
+- `batch_preprocess_signs.py`：批量处理静态手势图片
+- `train_static_numpy_model.py`：训练板端可用的轻量 NumPy 静态模型
+- `board_static_infer.py`：板端或本地单张静态手势推理
+- `board_static_live_json.py`：板端摄像头实时识别并写出 JSON
+- `pc_speak_static.py`：电脑端读取板端 JSON 并语音播报
+- `audit_static_images.py`：筛查静态图片数据质量
+- `dataset_manifest.py` / `dataset_audit.py`：生成和检查数据集清单
+- `evaluate_dynamic_model.py` / `train_dynamic_model.py`：动态手势相关训练和评估脚本
 
-当前基线仅使用少量样本验证软件流程，训练集回测结果不能作为最终识别准确率。
-
-## 4. 开发环境
+## 开发环境
 
 - 操作系统：Windows
-- Python：3.11.9
-- OpenCV：4.14.0.94
-- NumPy：2.4.6
-- 编辑器：Visual Studio Code
-- FPGA 工具：Vivado ML Standard 2025.2、Vitis 2025.2
-- 目标板卡：PYNQ-Z2（XC7Z020）
+- Python：建议 3.10 或 3.11
+- OpenCV
+- NumPy
+- scikit-learn / joblib
+- FPGA 工具：Vivado / Vitis
+- 目标板卡：PYNQ-Z2
 
-## 5. 项目结构
+## PC 端运行方法
 
-```text
-sign-language-pynq/
-├─ board/                      # PYNQ Overlay 和板卡端文件
-├─ dataset/
-│  ├─ raw/                    # 原始手势图片
-│  ├─ processed/              # 128×128 手部掩膜
-│  └─ features/               # HOG 特征数据
-├─ fpga/                       # Vivado 与后续 HLS 工程
-├─ models/                     # 训练得到的模型
-├─ outputs/                    # 图像处理测试输出
-├─ report/
-│  ├─ requirements_matrix.md  # 竞赛要求对应矩阵
-│  └─ ai_collaboration.md     # AI 协作记录
-├─ batch_preprocess.py         # 批量图像预处理
-├─ batch_hog_features.py       # 批量提取 HOG 特征
-├─ train_baseline.py           # 基线分类器训练
-├─ requirements.txt            # Python 依赖
-├─ LICENSE                     # 开源许可证
-└─ README.md
-```
-
-## 6. PC 端运行方法
-
-### 6.1 创建并激活虚拟环境
+### 创建并激活虚拟环境
 
 ```powershell
 python -m venv .venv
@@ -100,83 +82,72 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 .\.venv\Scripts\Activate.ps1
 ```
 
-### 6.2 安装依赖
+### 安装依赖
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-### 6.3 批量预处理
-
-将图片放入 `dataset/raw` 下对应的类别文件夹，然后运行：
+### 批量预处理静态数据
 
 ```powershell
-python batch_preprocess.py
+python batch_preprocess_signs.py --input dataset\raw_static_v1 --output dataset\processed_static_v1
 ```
 
-### 6.4 提取 HOG 特征
+### 训练静态 NumPy 模型
 
 ```powershell
-python batch_hog_features.py
+python train_static_numpy_model.py --input dataset\processed_static_v1 --model models\static_numpy_model.npz --summary report\static_numpy_model.json
 ```
 
-### 6.5 训练基线分类器
+### 板端实时识别
+
+在 PYNQ-Z2 上运行：
+
+```bash
+cd /home/xilinx/sign-language-pynq
+python3 board_static_live_json.py --model models/static_numpy_model.npz --interval 0.8
+```
+
+### 电脑端语音播报
+
+在电脑 PowerShell 中运行：
 
 ```powershell
-python train_baseline.py
+python .\pc_speak_static.py
 ```
 
-模型将保存到：
+## FPGA 工程
 
-```text
-models/prototype_model.npz
-```
+`fpga/` 目录包含 Vivado/HLS 相关工程文件。仓库会保留关键源文件、工程文件和必要 Overlay，忽略 `.cache`、`.gen`、`.runs`、HLS `solution*/syn`、`solution*/impl` 等自动生成目录。
 
-## 7. FPGA 工程
+## GitHub 协作建议
 
-Vivado 工程当前包含：
+- `main` 分支只放稳定版本
+- 每个任务建立一个 Issue
+- 每个功能使用独立分支开发
+- 合并前通过 Pull Request 检查
+- 数据集、虚拟环境、运行缓存、SSH 密钥不要上传
 
-- ZYNQ7 Processing System
-- AXI GPIO
-- AXI SmartConnect
-- Processor System Reset
-- PYNQ-Z2 板卡接口和 LED 约束
+## 后续计划
 
-已生成用于基础验证的：
-
-```text
-board/overlays/led_test/led_test.bit
-board/overlays/led_test/led_test.hwh
-```
-
-板卡可用后，将首先加载该 Overlay 验证 PS、PL 与 LED 控制链路，再进行图像算法加速开发。
-
-## 8. 后续计划
-
-- 使用摄像头为每类采集足量样本
-- 划分训练集、验证集和独立测试集
-- 生成准确率、混淆矩阵和错误样本分析
-- 完成 PYNQ 镜像写入及网络连接
-- 在板卡上验证 USB 摄像头
-- 使用 Vitis HLS 实现图像处理加速模块
+- 继续清洗静态手势数据集
+- 完善动态手势识别流程
+- 在板卡上验证实时识别稳定性
 - 对比 CPU 与 FPGA 的延迟、帧率和资源占用
-- 完成报告、演示视频与答辩材料
+- 整理比赛报告、演示视频和答辩材料
 
-## 9. 数据与结果说明
+## 数据与结果说明
 
-- 不将训练集回测结果作为最终准确率。
-- 最终性能数据必须来自实际板卡和测试集。
-- 使用网络图片时应确认授权，不提交无权再分发的数据。
-- 建议正式数据由参赛者自行采集，并记录采集条件。
+- 不将训练集回测结果作为最终准确率
+- 最终性能数据应来自实际板卡和独立测试集
+- 使用网络图片时应确认授权，不提交无权再分发的数据
+- 建议正式数据由参赛者自行采集，并记录采集条件
 
-## 10. AI 协作说明
+## AI 协作说明
 
-本项目使用 AI 辅助项目规划、示例代码编写、错误分析和文档整理。所有 AI 输出均需经过参赛者运行或审核。详细记录见：
+本项目使用 AI 辅助项目规划、示例代码编写、错误分析和文档整理。所有 AI 输出均需经过参赛者运行或审核。
 
-```text
-report/ai_collaboration.md
-```
-
-## 11. 许可证
+## 许可证
 
 本项目源代码计划使用 MIT License，详情见 `LICENSE`。
